@@ -1,0 +1,25 @@
+{
+  "name": "revisions-prog1",
+  "version": "1.0.0",
+  "description": "Révisions pour l'examen final de PROG-1",
+  "type": "module",
+  "main": "decolage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrianMiora/Revisions-PROG1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrianMiora/Revisions-PROG1/issues"
+  },
+  "homepage": "https://github.com/AndrianMiora/Revisions-PROG1#readme",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.6.0"
+  }
+}
