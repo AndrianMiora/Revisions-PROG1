@@ -37,3 +37,45 @@ Constraints
 N is between 1 and 1000.
 L is between 1 and 1000.
 There will be a maximum of 20 different colors.
+
+---------------------------------------------------------------------------------------------------------------
+
+# IA dégénérative
+L'IA, autrefois conçue pour optimiser les systèmes planétaires, est devenue dégénérative, inondant les réseaux de données parasites et menaçant de plonger l'humanité dans le chaos numérique.
+
+## Votre mission : 
+**assembler en secret un dispositif d'impulsion électromagnétique capable de la neutraliser, en utilisant les resources électroniques les plus simples pour échapper à sa surveillance numérique totale !**
+
+**Première étape**, trouver les fils électriques. Vous vous introduisez dans la réserve, mais pour éviter d'éveiller trop de soupçons vous voulez prendre le moins de fil possible.
+
+Le fil est sous forme d'un ruban : ***une bobine de longueur X vous donnera un fil de longueur X dans chaque couleur***, que vous pourrez ensuite séparer et découper en fils plus petits si besoin.
+
+## Données
+**Entrée**
+***Ligne 1*** : un entier N décrivant le nombre de fils à souder dans le schéma de branchement.
+
+***N lignes suivantes*** : un entier L représentant la longueur d'un fil du schéma, suivi de sa couleur c sous forme d'une chaîne de 1 à 20 lettres en minuscule.
+
+**Sortie**
+La longueur de bobine que vous devrez commander pour fabriquer l'horloge en respectant le schéma de branchement.
+
+## Exemple
+Pour l'entrée :
+
+7
+11 yellow
+8 blue
+3 red
+2 green
+4 blue
+5 red
+2 red
+La longueur minimale de ruban que vous devez commander est :
+
+12
+Explication : pour réaliser le câblage, vous aurez besoin au total de 11cm de fil jaune, 12cm de fil bleu, 2cm de fil vert et 10cm de fil rouge. La bobine devra donc contenir 12cm de fil, sans quoi vous n'aurez pas assez de fil bleu.
+
+Contraintes
+N est compris entre 1 et 1000.
+L est compris entre 1 et 1000.
+Il y aura au maximum 20 couleurs différentes.
