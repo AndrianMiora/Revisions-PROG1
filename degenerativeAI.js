@@ -1,3 +1,3 @@
-const degenerativeAI = ([N, L, C]) => {
+export const degenerativeAI = ([N, L, C]) => {
     return;
 }
